@@ -759,7 +759,7 @@ label {
   margin-right: 1%;
   margin-left: 1%;
   border-radius: 20px;
-  background-color: hsla(0, 0%, 100%, 0.95);
+  background-color: hsla(0, 0%, 100%, 0.97);
 }
 
 .white-box.center-message {
@@ -827,9 +827,9 @@ label {
 .dash-tab-wrapper {
   min-height: 100vh;
   padding-bottom: 5em;
-  background-image: url('../images/google-2-1.jpg');
+  background-image: none;
   background-position: 0px 0px;
-  background-size: contain;
+  background-size: auto;
 }
 
 .app-logo-circle {
@@ -1632,6 +1632,12 @@ label {
   font-size: 28px;
   line-height: 1.6;
   text-align: center;
+}
+
+.body {
+  background-image: url('../images/google-2-1.jpg');
+  background-position: 0px 0px;
+  background-size: contain;
 }
 
 @media screen and (max-width: 991px) {
